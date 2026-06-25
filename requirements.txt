@@ -1,0 +1,17 @@
+# Tested dependency versions (Python 3.13.13)
+# Core scientific stack (required for all figures)
+numpy==2.4.4
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.9
+seaborn==0.13.2
+pyarrow==24.0.0
+# Connectomics / example-skeleton plot only (Figure 1 skeleton cell; needs internet + CAVE token)
+caveclient==8.0.1
+meshparty==2.0.3
+skeleton-plot==0.1.0
+standard-transform==1.4.1
+# Notebook environment
+jupyterlab
+ipykernel
