@@ -5,7 +5,7 @@ This repository contains the analysis notebook **`IT-circuit-Figures-clean.ipynb
 📄 **Preprint:**  
 https://www.biorxiv.org/content/10.64898/2026.04.23.720412v1
 
-All connectivity/synapse analyses operate on pre-extracted tables from the MICrONS **minnie65_public** dataset (release **v1718**).
+All connectivity/synapse analyses operate on pre-extracted tables from the MICrONS **minnie65_public** dataset (release **v1926**).
 
 ## 1. System requirements
 ### Operating systems
