@@ -30,9 +30,10 @@ This is a standard Jupyter notebook with pip-installable dependencies, so **any*
 - **~5–20 minutes** on a normal desktop with a broadband connection.
 
 ## 3. Data files 
-📄 Data files can be accessed in an **open AWS S3 bucket** at:
+📄 Data files and skeleton swc files can be accessed in an **open AWS S3 bucket** at:
 ```
 s3://allen-paper-supplements/czhang_preprint_2026/
+s3://allen-paper-supplements/czhang_preprint_2026/swc files/
 ```
 **Test accessibility** with the included script (lists every file, confirms each is
 readable, and does a pandas read check):
