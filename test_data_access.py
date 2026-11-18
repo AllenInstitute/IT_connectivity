@@ -27,28 +27,27 @@ PREFIX = "czhang_preprint_2026/"
 
 # Files the analysis notebook expects (unzip the .zip files after download).
 EXPECTED = [
-    "All-E-input-synapses-v1718.zip",
-    "All-E-output-synapses-v1718.parquet",
-    "Column-E-output-synapses-v1718.parquet",
+    "All-E-output-synapses-v1926.csv",
+    "All-E-output-v1926-mtype.csv",
+    "Column-E-output-synapses-v1926.csv",
     "Column-L23-input-synapse-number-v1718.csv",
-    "Column-all-output-v1718-mtype.parquet",
-    "Column_mtype_v1718.csv",
+    "Column-L4-connectivity-v1926.csv",
+    "Column-all-output-v1926-mtype.csv",
+    "Column_mtype_v1926.csv",
     "L5IT-L23-synapse-percentage.csv",
     "L5_IT_lda_umap_features.csv",
-    "Proofread IT and ET with root id-v1718.csv",
-    "Proofread-V1-output-synapses-with-motif-v1718.csv",
-    "Proofread-V1-output-synapses-with-mtypes-v1718.parquet",
-    "Proofread_L4_output_synapses_v1718.parquet",
-    "V1_mtype_v1718.parquet",
-    "V1_prf_inh_connections_v1718.parquet",
-    "co_target_mean_all_E_target_v1718.csv",
-    "co_target_mean_column_E_target_v1718.csv",
+    "Proofread IT and ET with root id-v1926.csv",
+    "Proofread-V1-output-synapses-with-motif-v1926.csv",
+    "Proofread-V1-output-synapses-with-mtypes-v1926.csv",
+    "V1_mtype_v1926.csv",
+    "V1_prf_inh_connections_v1926.csv",
+    "co_target_mean_all_E_target_v1926.csv",
+    "co_target_mean_column_E_target_v1926.csv",
     "prf-LGN-output-mtype-v1718.csv",
     "prf-inh-motif-sorted-v1664.csv",
-    "spatial_shuffle_ratio_v1718.csv",
-    "synapse_identification_stat_v1718.csv",
+    "spatial shuffle.zip",
+    "synapse_identification_stat_v1926.csv",
 ]
-
 
 def human(n):
     size = float(n)
